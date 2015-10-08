@@ -7,6 +7,7 @@ $primary_shade_active: #08064b
 $secondary: #92cafd
 $secondary_tint: #c5e1f7
 $secondary_shade: #65a1d7
+$anchor_highlight: #dcecf7
 $rich_grey: #282828 
 $bg_white: #ffffff
 $light_grey: #e6e7e8
@@ -36,6 +37,10 @@ $light: 300
 //Dimensions
 $default_margin: 0 auto
 $default_padding: 0
+
+//Transition
+$default_transition: all 0.5s ease
+
 //CSS Assignments
 
 h1,
@@ -55,6 +60,7 @@ li
 
 .navbar .nav>li>a
 	padding: 15px
+	transition: all 0.5s ease
 
 body
 	background-color: $rich_grey
@@ -150,7 +156,7 @@ a:active
 	padding: 0
 	position: fixed
 	width: 100%
-	z-index: 99
+	z-index: 999999999999
 	box-shadow: 0px 0px 20px $primary_shade
 
 #whale_blue_male
@@ -210,6 +216,7 @@ button:focus
 
 .footer div
 	padding: 20px
+
 .footer p
 	color: $light_grey
 
@@ -230,15 +237,17 @@ button:focus
 	line-height: $paragraph_leading
 	text-shadow: none
 	text-transform: capitalize
+	transition: color 0.5s ease
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus
-	color: $secondary_tint
+	color: $anchor_highlight
 
-.intro
+.intro,
+.hero_shot
 	margin: 0 auto
 	overflow: hidden
 	height: 465px
@@ -250,6 +259,38 @@ button:focus
 	position: absolute
 	width: 200%
 	top: -250px
+
+.hero_fg
+	width: 100%
+	margin-top: 50px
+	position: absolute
+	display: block
+	top: 0
+	text-align: center
+	z-index: 9999
+
+.hero_bg
+	position: absolute
+	margin: 0 auto
+	padding: 0
+	width: 100%
+	height: 100%
+	overflow: hidden
+	text-align: center
+	z-index: 0
+
+.hero_left,
+.hero_right
+	width: 100%
+
+.hero_left
+	background-color: $primary
+
+.hero_right
+	background-color: $primary_shade
+
+.hero_bg img
+	height: 100%
 
 .dung_hero
 	position: absolute
@@ -267,8 +308,6 @@ button:focus
 
 .dung_hero.resume h1
 	padding-top: 28%
-
-
 
 .passage
 	margin: 0 auto
@@ -300,7 +339,7 @@ button:focus
 
 .resume_button
 	margin-top: 180px
-	padding-left: 60%
+	padding-left: 70%
 
 .corner_shape a
 	position: absolute
@@ -617,6 +656,32 @@ button:focus
 a .active
 	opacity: 0.25
 
+.portfolio
+	margin: 0 auto
+	padding: 0
+	text-align: center
+	background-color: $bg_white
+
+.portfolio_copy
+	margin-top: 40px
+
+.portfolio_copy h1
+	font-weight: $book_regular
+	color: $primary
+
+.portfolio_copy p
+	text-align: left
+	font-weight: $light
+	padding: 0
+	width: 50%
+
+.portfolio_copy p a
+	color: $primary
+	transition: $default_transition
+
+.portfolio_copy p a:hover
+	color: $primary_shade_active
+	
 @media screen and(max-width:992px)
 	.white_border
 		display: none
