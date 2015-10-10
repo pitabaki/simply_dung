@@ -1,0 +1,19 @@
+{
+  "name": "simply_dung",
+  "version": "1.0.1",
+  "description": "A portfolio site for Dung Nguyen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitabaki/simply_dung.git"
+  },
+  "author": "Peter Berki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pitabaki/simply_dung/issues"
+  },
+  "homepage": "https://github.com/pitabaki/simply_dung#readme"
+}

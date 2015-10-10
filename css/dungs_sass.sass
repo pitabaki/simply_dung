@@ -1,123 +1,17 @@
 //Dung's Sass/CSS file
 
-//Color Palette
-$primary: #1f1ab2
-$primary_shade: #0c0874
-$primary_shade_active: #08064b
-$secondary: #92cafd
-$secondary_tint: #c5e1f7
-$secondary_shade: #65a1d7
-$anchor_highlight: #dcecf7
-$rich_grey: #282828 
-$bg_white: #ffffff
-$light_grey: #e6e7e8
+//General Imports
+@import variables
+@import mixins
+@import general
 
-//Typography
-
-//family
-$main_typeface: 'Fira Sans', sans-serif
-
-//sizes
-$h1_size: 48px
-$h2_size: 34px
-$h3_size: 20px
-$paragraph: 16px
-
-//leading
-$h1_leading: 66px
-$h2_leading: 44px
-$h3_leading: 33px
-$h3_leadingPlus: 44px
-$paragraph_leading: 22px
-//weights
-$semi-bold: 500
-$book_regular: 400
-$light: 300
-
-//Dimensions
-$default_margin: 0 auto
-$default_padding: 0
-
-//Transition
-$default_transition: all 0.5s ease
+//Specific Imports
+@import portfolio
 
 //Project colors
 
 
 //CSS Assignments
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-li
-	margin: $default_margin
-	padding: 0.5em 0
-	font-family: $main_typeface
-	-webkit-font-smoothing: antialiased
-	-moz-osx-font-smoothing: grayscale
-
-.navbar .nav>li>a
-	padding: 15px
-	transition: all 0.5s ease
-
-body
-	background-color: $rich_grey
-
-h1
-	font-size: $h1_size
-	line-height: $h1_leading
-	font-weight: $book_regular
-
-h2
-	font-size: $h2_size
-	line-height: $h2_leading
-	font-weight: $book_regular
-h3
-	font-size: $h3_size
-	line-height: $h3_leading
-	font-weight: $book_regular
-p,
-li
-	color: $primary
-	font-weight: $book_regular
-	font-size: $paragraph
-	line-height: $paragraph_leading
-	color: $rich_grey
-
-li
-	color: $primary
-	line-height: 32px
-
-a
-	color: $secondary
-	text-decoration: none
-	transition: all 0.5 ease
-
-a:hover,
-a:focus,
-a:active
-	color: $secondary_tint
-	text-decoration: none
-
-.row
-	margin: 0 auto
-
-.whale_blue_male
-	color: $primary
-
-.sample
-	padding: 40px 0
-	margin: 20px 0
-	border-top: 1px solid $rich_grey
-	border-bottom: 1px solid $rich_grey
-
-.moreLeading
-	line-height: $h3_leadingPlus
 
 .light
 	font-weight: $light
@@ -139,8 +33,7 @@ a:active
 	text-align: left
 
 .container
-	margin: $default_margin
-	padding: $default_padding
+	+freshStart(0)
 	width: 100%
 
 .body_cont
@@ -149,41 +42,23 @@ a:active
 	margin-top: 20px
 
 .colors
-	margin: 0 auto
 	margin: 10px 0
 	display: inline-block
 	padding: 20px
 	color: #ffffff
 
 .navigation
-	padding: 0
+	+freshStart(0)
 	position: fixed
 	width: 100%
 	z-index: 999999999999
-	box-shadow: 0px 0px 20px $primary_shade
-
-#whale_blue_male
-	background-color: $primary
-
-#whale_blue_female
-	background-color: $primary_shade
-
-#jellyfish_blue
-	background-color: $secondary
-
-#silver_lake_blue
-	background-color: $secondary_tint
-#rich_grey
-	background-color: $rich_grey
+	+boxShadow(0px 0px 20px $primary_shade)
 
 button
 	background-color: #ffffff
-	width: 24px
-	height: 24px
+	+perfectSquare(24px)
 	border: 2px solid $primary
-	-webkit-border-radius: 15px
-	-moz-border-radius: 15px
-	border-radius: 15px
+	+borderRadius(15px)
 	transition: all 0.5s ease
 
 button.active,
@@ -200,16 +75,6 @@ button:focus
 
 .buttonSetup p
 	color: $rich_grey
-
-.leftButton
-	display: inline-block
-	text-align: center
-	padding: 0 5% 0 0%
-
-.rightButton
-	display: inline-block
-	text-align: center
-	padding: 0 5% 0 0%
 
 .footer
 	margin: 0 auto
@@ -251,49 +116,16 @@ button:focus
 
 .intro,
 .hero_shot
-	margin: 0 auto
+	+freshStart(0)
 	overflow: hidden
 	height: 465px
 	background-color: $primary
-	padding: 0
 
 .intro img
 	margin: 0 auto
 	position: absolute
 	width: 200%
 	top: -250px
-
-.hero_fg
-	width: 100%
-	margin-top: 50px
-	position: absolute
-	display: block
-	top: 0
-	text-align: center
-	z-index: 9999
-
-.hero_bg
-	position: absolute
-	margin: 0 auto
-	padding: 0
-	width: 100%
-	height: 100%
-	overflow: hidden
-	text-align: center
-	z-index: 0
-
-.hero_left,
-.hero_right
-	width: 100%
-
-.hero_left
-	background-color: $primary
-
-.hero_right
-	background-color: $primary_shade
-
-.hero_bg img
-	height: 100%
 
 .dung_hero
 	position: absolute
@@ -320,6 +152,7 @@ button:focus
 
 .intro_passage
 	background-color: #171399
+
 .passage h3
 	font-weight: $light
 	text-rendering: optimizeLegibility	
@@ -387,12 +220,6 @@ button:focus
 	margin: 0 auto
 	display: block
 
-.white_top_border
-	position: absolute
-	z-index: 3
-	top: 450px
-	right: 0
-
 .description h2,
 .description h3
 	text-align: center
@@ -433,15 +260,12 @@ button:focus
 .pieces
 	overflow: hidden
 	padding: 0
-	height: 320px
 
 .pieces_stack
-	overflow: hidden
-	padding: 0
+	@extend .pieces
 
 .pieces_stack .item
-	overflow: hidden
-	padding: 0
+	@extend .pieces
 
 .item
 	overflow: hidden
@@ -459,8 +283,7 @@ button:focus
 	border-right: 5px solid #ffffff
 
 .pieces_stack .wide
-	overflow: hidden
-	padding: 0
+	@extend .pieces
 	height: 320px
 
 .overlay
@@ -472,7 +295,7 @@ button:focus
 	transition: all 0.5s ease
 
 .pieces a img
-	max-width: none
+	width: 100%
 
 .overlay .hover_copy
 	position: absolute
@@ -528,13 +351,11 @@ button:focus
 	margin: 10px
 	padding: 10px
 	background-color: $rich_grey
-	border-radius: 30px
-	-moz-border-radius: 30px
-	-webkit-border-radius: 30px
+	+borderRadius(30px)
 	transition: background-color 0.5s ease
 
 .contact_icons a:hover
-	background-color: #000000
+	background-color: #999999
 
 .contact_left a
 	float: right
@@ -650,79 +471,10 @@ button:focus
 	background-color: #000000
 
 .imgObj
-	-webkit-transition: all 1s ease
-	-moz-transition: all 1s ease
-	-ms-transition: all 1s ease
-	-o-transition: all 1s ease
-	transition: all 1s ease
+	+animateTrans(all 1s ease)
 
 a .active
 	opacity: 0.25
-
-.portfolio
-	margin: 0 auto
-	padding: 0
-	text-align: center
-	background-color: $bg_white
-
-.portfolio_copy
-	margin-top: 40px
-
-.portfolio_copy h1
-	font-weight: $book_regular
-	color: $primary
-
-.portfolio_copy p
-	text-align: left
-	font-weight: $light
-	padding: 0
-	width: 60%
-
-.portfolio_copy p a
-	color: $primary
-	transition: $default_transition
-
-.portfolio_copy p a:hover
-	color: $primary_shade_active
-
-.portfolio_copy h3
-	color: $primary
-
-.portfolio .subtitles h3
-	font-weight: $semi-bold
-.colorPalette
-	display: inline-block
-
-.colorPalette h3,
-.colorPalette ul
-	display: inline-block
-	margin-bottom: 0
-	padding: 0
-	vertical-align: middle
-	line-height: 0
-
-.colorPalette ul li
-	display: inline-block
-	padding: 0
-	margin-right: 14px
-	width: 20px
-	height: 20px
-	border-radius: 20px
-
-#et_05
-	background-color: #69af53
-
-#et_04
-	background-color: #f6ae00
-
-#et_03
-	background-color: #ff5200
-
-#et_02
-	background-color: #1f3d55
-
-#et_01
-	background-color: #20a0e9
 
 @media screen and(max-width:992px)
 	.white_border

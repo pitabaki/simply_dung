@@ -1,7 +1,11 @@
 /*
 JavaScript for SimplyDung
 
-Created by: Peter Berki
+************************************
+Developed by: Peter Berki
+GitHub: PitaBaki // http://www.github.com/pitabaki
+Personal: http://www.peterberkidesign.com
+************************************
 
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
 */

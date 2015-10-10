@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li
+	margin: $default_margin
+	padding: 0.5em 0
+	font-family: $main_typeface
+	+fontSmooth
+
+.navbar .nav>li>a
+	padding: 15px
+	transition: all 0.5s ease
+
+body
+	background-color: $bg_white
+
+h1
+	font-size: $h1_size
+	line-height: $h1_leading
+	font-weight: $book_regular
+
+h2
+	font-size: $h2_size
+	line-height: $h2_leading
+	font-weight: $book_regular
+h3
+	font-size: $h3_size
+	line-height: $h3_leading
+	font-weight: $book_regular
+p,
+li
+	color: $primary
+	font-weight: $book_regular
+	font-size: $paragraph
+	line-height: $paragraph_leading
+	color: $rich_grey
+
+li
+	color: $primary
+	line-height: 32px
+
+a
+	color: $secondary
+	text-decoration: none
+	transition: all 0.5 ease
+
+a:hover,
+a:focus,
+a:active
+	color: $secondary_tint
+	text-decoration: none
+
+.row
+	+freshStart(0)
+
+.white_top_border
+	position: absolute
+	z-index: 3
+	top: 446px
+	right: 0

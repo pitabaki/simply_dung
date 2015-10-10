@@ -1,0 +1,107 @@
+@import variables
+
+.hero_fg
+	width: 100%
+	position: absolute
+	display: block
+	top: 0
+	text-align: center
+	z-index: 9999
+
+.hero_bg
+	position: absolute
+	+freshStart(0)
+	+perfectSquare(100%)	
+	overflow: hidden
+	text-align: center
+	z-index: 0
+
+.hero_left,
+.hero_right
+	width: 100%
+
+.hero_left
+	background-color: $primary
+
+.hero_right
+	background-color: $primary_shade
+
+.hero_bg img
+	height: 100%
+
+.digital
+	background-color: #20a0e9
+
+.portfolio_img
+	margin: 0 auto
+	margin-top: 20px
+	padding: 0
+	text-align: center
+	background-color: $bg_white
+
+.portfolio
+	@extend .portfolio_img
+	margin-top: 40px
+
+.portfolio_img img
+	width: 100%
+
+.constrain img
+	width: 70%
+
+.portfolio_copy h1
+	font-weight: $book_regular
+	color: $primary
+
+.portfolio_copy p
+	text-align: left
+	font-weight: $light
+	padding: 0
+	width: 60%
+
+.portfolio_copy p a
+	color: $primary
+	+animateTrans($default_transition)
+
+.portfolio_copy p a:hover
+	color: $primary_shade_active
+
+.portfolio_copy h3
+	color: $primary
+	font-weight: $light
+
+.portfolio .subtitles h3
+	font-weight: $semi-bold
+
+.colorPalette
+	display: inline-block
+
+.colorPalette h3,
+.colorPalette ul
+	display: inline-block
+	+freshStart(0)
+	margin-right: 10px
+	vertical-align: middle
+	line-height: 10px
+
+.colorPalette ul li
+	display: inline-block
+	padding: 0
+	margin-right: 14px
+	+perfectSquare(20px)
+	+borderRadius(20px)
+
+#et_05
+	background-color: #69af53
+
+#et_04
+	background-color: #f6ae00
+
+#et_03
+	background-color: #ff5200
+
+#et_02
+	background-color: #1f3d55
+
+#et_01
+	background-color: #20a0e9
