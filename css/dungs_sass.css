@@ -573,19 +573,17 @@ button:focus {
 .resume_list ul {
   margin: 0 auto;
   line-height: 60px; }
-
-.resume_list ul li {
-  margin: 0 auto;
-  padding: 5px 0;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 22px;
-  list-style: none; }
-
-.resume_list ul li ul li {
-  padding: 0;
-  padding-left: 20px;
-  list-style: disc; }
+  .resume_list ul li {
+    margin: 0 auto;
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    list-style: none; }
+    .resume_list ul li ul li {
+      padding: 0;
+      padding-left: 20px;
+      list-style: disc; }
 
 .second_h3 {
   margin-top: 20px; }
@@ -614,12 +612,12 @@ button:focus {
 .exp_list > .row {
   margin: 40px auto; }
 
+.exp_list p {
+  color: #0c0874; }
+
 .exp_list h3 {
   color: #0c0874;
   padding: 0; }
-
-.exp_list p {
-  color: #0c0874; }
 
 .exp li {
   padding: 0;
