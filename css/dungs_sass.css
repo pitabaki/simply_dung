@@ -115,6 +115,9 @@ a:active {
 .digital {
   background-color: #20a0e9; }
 
+.exist {
+  background-color: #ffffff; }
+
 .portfolio_img, .portfolio {
   margin: 0 auto;
   margin-top: 20px;
@@ -135,6 +138,11 @@ a:active {
   font-weight: 400;
   color: #1f1ab2; }
 
+.exist_copy h2 {
+  font-weight: 400;
+  color: #1f1ab2;
+  padding: 0.5em 0 0 0; }
+
 .portfolio_copy p {
   text-align: left;
   font-weight: 300;
@@ -154,7 +162,8 @@ a:active {
 
 .portfolio_copy h3 {
   color: #1f1ab2;
-  font-weight: 300; }
+  font-weight: 400;
+  padding: 0 0 0.5em 0; }
 
 .portfolio .subtitles h3 {
   font-weight: 500; }
@@ -196,6 +205,21 @@ a:active {
 
 #et_01 {
   background-color: #20a0e9; }
+
+#exist_01 {
+  background-color: #eaf1ae; }
+
+#exist_02 {
+  background-color: #bf5f16; }
+
+#exist_03 {
+  background-color: #905501; }
+
+#exist_04 {
+  background-color: #aebd9d; }
+
+#exist_05 {
+  background-color: #606860; }
 
 .overlay {
   position: absolute;

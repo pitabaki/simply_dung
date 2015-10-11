@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/pitabaki/simply_dung/issues"
   },
-  "homepage": "https://github.com/pitabaki/simply_dung#readme"
+  "homepage": "https://github.com/pitabaki/simply_dung#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gutil": "^1.6.4"
+  }
 }

@@ -143,11 +143,31 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/gulp\/gulp.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/gulp\/gulp.js",
+		"outputAbbreviatedPath": "\/development\/gulp\/min\/gulp-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/email_design.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/email_design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/exist.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/exist.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -445,6 +465,61 @@
 		"initialSize": 1773,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/hero_bg.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/hero_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/chap3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74983,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/chap3.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/chap3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/exist_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 479950,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/exist_poster.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/exist_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/mockup_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189473,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mockup_a.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mockup_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/mockup_b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160934,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mockup_b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mockup_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/section3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326243,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/section3.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/section3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

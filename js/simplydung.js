@@ -9,6 +9,7 @@ Personal: http://www.peterberkidesign.com
 
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
 */
+
 function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
