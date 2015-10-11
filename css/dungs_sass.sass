@@ -7,6 +7,7 @@
 
 //Specific Imports
 @import portfolio
+@import collectionHover
 
 //Project colors
 
@@ -59,7 +60,7 @@ button
 	+perfectSquare(24px)
 	border: 2px solid $primary
 	+borderRadius(15px)
-	transition: all 0.5s ease
+	+animateTrans($default_transition)
 
 button.active,
 	background: url(img/assets/check.jpg) no-repeat
@@ -256,86 +257,6 @@ button:focus
 
 .body_row
 	padding: 0
-
-.pieces
-	overflow: hidden
-	padding: 0
-
-.pieces_stack
-	@extend .pieces
-
-.pieces_stack .item
-	@extend .pieces
-
-.item
-	overflow: hidden
-	height: 320px
-
-.item img
-	width: 100%
-	height: 320px
-
-.blank
-	background-color: $secondary
-	padding: 2.5px 5px
-	height: 220px
-	border-left: 5px solid #ffffff
-	border-right: 5px solid #ffffff
-
-.pieces_stack .wide
-	@extend .pieces
-	height: 320px
-
-.overlay
-	position: absolute
-	z-index: 5
-	opacity: 0
-	width: 100%
-	height: 100%
-	transition: all 0.5s ease
-
-.pieces a img
-	width: 100%
-
-.overlay .hover_copy
-	position: absolute
-	height: 100%
-	width: 100%
-	padding-top: 28%
-	z-index: 5
-
-.overlay_wide .hover_copy
-	padding-top: 14%
-
-.overlay_vertical .hover_copy
-	padding-top: 55%
-
-.overlay .hover_copy h3,
-.overlay .hover_copy p
-	z-index: 5
-	line-height: 0.5em
-	text-align: center
-	vertical-align: bottom
-	color: $bg_white
-
-.overlay .hover_copy h3:hover
-	color: $secondary
-
-.overlay:hover
-	opacity: 1
-
-.overlay .background
-	position: relative
-	z-index: 4
-	+perfectSquare(100%)
-	background-color: $primary
-	opacity: 1
-
-.vertical
-	height: 640px
-
-.vertical img
-	height: 640px
 
 .contact_icons
 	display: block
