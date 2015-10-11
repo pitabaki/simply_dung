@@ -1,3 +1,9 @@
+* {
+  outline: none; }
+
+button:focus {
+  display: none; }
+
 h1,
 h2,
 h3,
@@ -65,7 +71,7 @@ a:active {
 .white_top_border {
   position: absolute;
   z-index: 3;
-  top: 446px;
+  top: 450px;
   right: 0; }
 
 .active {
@@ -125,7 +131,7 @@ a:active {
 .constrain img {
   width: 70%; }
 
-.portfolio_copy h1 {
+.portfolio_copy h2 {
   font-weight: 400;
   color: #1f1ab2; }
 
@@ -284,6 +290,9 @@ a:active {
 .semi {
   font-weight: 500; }
 
+.book_regular {
+  font-weight: 400; }
+
 .title {
   border-bottom: 1px solid #282828;
   margin-top: 40px;
@@ -417,7 +426,7 @@ button:focus {
   line-height: 0; }
 
 .dung_hero.resume h1 {
-  padding-top: 28%; }
+  padding-top: 30%; }
 
 .passage {
   margin: 0 auto;
@@ -603,7 +612,7 @@ button:focus {
     list-style: none; }
     .resume_list ul li ul li {
       padding: 0;
-      padding-left: 20px;
+      margin-left: 20px;
       list-style: disc; }
 
 .second_h3 {

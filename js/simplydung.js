@@ -35,7 +35,7 @@ function init(){
 
 	//What happens when a button is clicked follows
 	$("button").click(function(){
-
+		event.preventDefault();
 		//When button is clicked, an ID is returned
 		var id = this.id;
 
