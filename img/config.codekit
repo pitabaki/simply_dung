@@ -24,17 +24,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/book2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 264208,
-		"inputAbbreviatedPath": "\/assets\/book2.jpg",
-		"outputAbbreviatedPath": "\/assets\/book2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/check.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -79,6 +68,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/digital_disruption.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17687,
+		"inputAbbreviatedPath": "\/assets\/digital_disruption.jpg",
+		"outputAbbreviatedPath": "\/assets\/digital_disruption.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/digital_disruption_g2-02.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -119,6 +119,28 @@
 		"initialSize": 25313,
 		"inputAbbreviatedPath": "\/assets\/event-page.png",
 		"outputAbbreviatedPath": "\/assets\/event-page.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/event_page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29100,
+		"inputAbbreviatedPath": "\/assets\/event_page.jpg",
+		"outputAbbreviatedPath": "\/assets\/event_page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/exist_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75997,
+		"inputAbbreviatedPath": "\/assets\/exist_poster.jpg",
+		"outputAbbreviatedPath": "\/assets\/exist_poster.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -174,6 +196,28 @@
 		"initialSize": 1357,
 		"inputAbbreviatedPath": "\/assets\/linkedin_icon.png",
 		"outputAbbreviatedPath": "\/assets\/linkedin_icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/lost_book.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264208,
+		"inputAbbreviatedPath": "\/assets\/lost_book.jpg",
+		"outputAbbreviatedPath": "\/assets\/lost_book.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/lost_book_sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78871,
+		"inputAbbreviatedPath": "\/assets\/lost_book_sm.jpg",
+		"outputAbbreviatedPath": "\/assets\/lost_book_sm.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -251,6 +295,61 @@
 		"initialSize": 1773,
 		"inputAbbreviatedPath": "\/assets\/projects\/email_temp\/hero_bg.jpg",
 		"outputAbbreviatedPath": "\/assets\/projects\/email_temp\/hero_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/exist\/chap3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74983,
+		"inputAbbreviatedPath": "\/assets\/projects\/exist\/chap3.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/exist\/chap3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/exist\/exist_poster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 479950,
+		"inputAbbreviatedPath": "\/assets\/projects\/exist\/exist_poster.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/exist\/exist_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/exist\/mockup_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189473,
+		"inputAbbreviatedPath": "\/assets\/projects\/exist\/mockup_a.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/exist\/mockup_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/exist\/mockup_b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160934,
+		"inputAbbreviatedPath": "\/assets\/projects\/exist\/mockup_b.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/exist\/mockup_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/exist\/section3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326243,
+		"inputAbbreviatedPath": "\/assets\/projects\/exist\/section3.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/exist\/section3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
