@@ -334,7 +334,7 @@ a:active {
 
 .vertical,
 .vertical img {
-  height: 520px; }
+  height: 100%; }
 
 .body_cont {
   display: block;
