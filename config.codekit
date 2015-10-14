@@ -223,6 +223,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/directory\/website.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/website.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/gulpfile.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -824,6 +833,94 @@
 		"initialSize": 80800,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/demo1b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387804,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo1b.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo1b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/demo2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 689869,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/demo2b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 492593,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/driving_webinar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192206,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/driving_webinar.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/driving_webinar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/event-center.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 325293,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/event-center.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/event-center.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/laptop_air_demo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502562,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/laptop_air_demo.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/laptop_air_demo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/report_02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 799490,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/report_02.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/report_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/website_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 452049,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/website_header.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/website_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
