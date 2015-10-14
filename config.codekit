@@ -143,6 +143,19 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/development\/coffee\/tagline.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/coffee\/tagline.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/development\/coffee\/tagline.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/development\/gulp\/gulp.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -154,23 +167,72 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/email_design.html": {
+	"\/development\/gulp\/min\/gulp-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development\/gulp\/min\/gulp-min.js",
+		"outputAbbreviatedPath": "\/development\/gulp\/min\/min\/gulp-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/directory\/cocktail.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/email_design.html",
+		"inputAbbreviatedPath": "\/directory\/cocktail.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/exist.html": {
+	"\/directory\/email_design.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/exist.html",
+		"inputAbbreviatedPath": "\/directory\/email_design.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/directory\/exist.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/exist.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/directory\/resume.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/resume.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/directory\/social_media.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/social_media.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/gulpfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gulpfile.js",
+		"outputAbbreviatedPath": "\/min\/gulpfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/img\/assets\/behance_icon.jpg": {
 		"fileType": 16384,
@@ -212,6 +274,17 @@
 		"initialSize": 1110,
 		"inputAbbreviatedPath": "\/img\/assets\/check.png",
 		"outputAbbreviatedPath": "\/img\/assets\/check.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/cocktail_front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22620,
+		"inputAbbreviatedPath": "\/img\/assets\/cocktail_front.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/cocktail_front.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -315,6 +388,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57451,
+		"inputAbbreviatedPath": "\/img\/assets\/front.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/front.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/hero_img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -410,6 +494,72 @@
 		"initialSize": 133322,
 		"inputAbbreviatedPath": "\/img\/assets\/poster-final.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/poster-final.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/cocktail_header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/cocktail_header.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/cocktail_header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/flyer_mockup_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155573,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/flyer_mockup_b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200169,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/ingredients.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03277e+06,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/ingredients.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/ingredients.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/ingredients24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/ingredients24.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/ingredients24.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -819,6 +969,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/tagline.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/tagline.js",
+		"outputAbbreviatedPath": "\/js\/min\/tagline-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/min\/gulpfile-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/gulpfile-min.js",
+		"outputAbbreviatedPath": "\/min\/min\/gulpfile-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/package.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -829,24 +1001,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
-		},
-	"\/resume.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/resume.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/social_media.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/social_media.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [

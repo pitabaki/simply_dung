@@ -149,6 +149,18 @@ a:active {
   padding: 0;
   width: 60%; }
 
+.portfolio_copy ul {
+  padding-left: 40px;
+  margin-left: 40px; }
+
+.portfolio_copy li {
+  text-align: left;
+  font-weight: 300;
+  padding: 0;
+  width: 60%;
+  padding-left: 40px;
+  color: #282828; }
+
 .portfolio_copy p a {
   color: #1f1ab2;
   -webkit-transition: all 0.5s ease;
@@ -221,6 +233,21 @@ a:active {
 #exist_05 {
   background-color: #606860; }
 
+#cocktail_01 {
+  background-color: #7bb22d; }
+
+#cocktail_02 {
+  background-color: #ffe500; }
+
+#cocktail_03 {
+  background-color: #d93f23; }
+
+#cocktail_04 {
+  background-color: #d0006e; }
+
+#cocktail_05 {
+  background-color: #999999; }
+
 .overlay {
   position: absolute;
   z-index: 5;
@@ -259,7 +286,7 @@ a:active {
   position: absolute;
   height: 100%;
   width: 100%;
-  padding-top: 12%;
+  padding-top: 20%;
   z-index: 5; }
 
 .overlay_wide .hover_copy, .overlay .hover_copy .overlay_wide h3,
@@ -269,7 +296,7 @@ a:active {
 .overlay_vertical .hover_copy, .overlay_vertical .overlay .hover_copy h3, .overlay .hover_copy .overlay_vertical h3,
 .overlay_vertical .overlay_wide .hover_copy h3,
 .overlay_wide .hover_copy .overlay_vertical h3, .overlay_vertical .overlay .hover_copy p, .overlay .hover_copy .overlay_vertical p, .overlay_vertical .overlay_wide .hover_copy p, .overlay_wide .hover_copy .overlay_vertical p {
-  padding-top: 35%; }
+  padding-top: 45%; }
 
 .overlay .hover_copy h3,
 .overlay_wide .hover_copy .overlay h3 h3, .overlay_wide .hover_copy .overlay p h3,
