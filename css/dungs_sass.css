@@ -286,17 +286,17 @@ a:active {
   position: absolute;
   height: 100%;
   width: 100%;
-  padding-top: 20%;
+  padding-top: 24%;
   z-index: 5; }
 
 .overlay_wide .hover_copy, .overlay .hover_copy .overlay_wide h3,
 .overlay_wide .hover_copy h3, .overlay .hover_copy .overlay_wide p, .overlay_wide .hover_copy p {
-  padding-top: 10%; }
+  padding-top: 12%; }
 
 .overlay_vertical .hover_copy, .overlay_vertical .overlay .hover_copy h3, .overlay .hover_copy .overlay_vertical h3,
 .overlay_vertical .overlay_wide .hover_copy h3,
 .overlay_wide .hover_copy .overlay_vertical h3, .overlay_vertical .overlay .hover_copy p, .overlay .hover_copy .overlay_vertical p, .overlay_vertical .overlay_wide .hover_copy p, .overlay_wide .hover_copy .overlay_vertical p {
-  padding-top: 45%; }
+  padding-top: 50%; }
 
 .overlay .hover_copy h3,
 .overlay_wide .hover_copy .overlay h3 h3, .overlay_wide .hover_copy .overlay p h3,
@@ -308,14 +308,14 @@ a:active {
 
 .overlay .hover_copy p,
 .overlay_wide .hover_copy .overlay h3 p, .overlay_wide .hover_copy .overlay p p {
-  padding-top: 8%;
-  padding-right: 30px;
-  padding-left: 30px;
+  padding-top: 4%;
+  padding-right: 40px;
+  padding-left: 40px;
   font-size: 1em;
   line-height: 1.5em; }
 
 .overlay_wide .hover_copy p, .overlay .hover_copy .overlay_wide h3 p, .overlay .hover_copy .overlay_wide p p {
-  padding-top: 4%; }
+  padding-top: 2%; }
 
 .overlay .hover_copy h3:hover,
 .overlay_wide .hover_copy .overlay h3 h3:hover, .overlay_wide .hover_copy .overlay p h3:hover {
@@ -331,6 +331,19 @@ a:active {
   height: 100%;
   background-color: #1f1ab2;
   opacity: 1; }
+
+.navbutton {
+  margin-right: 8%;
+  width: 60px; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #92cafd; }
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #0c0874; }
+
+.navbar-default .navbar-toggle {
+  border-color: #92cafd; }
 
 .light {
   font-weight: 300; }
@@ -740,4 +753,101 @@ a .active {
 
 @media screen and (max-width: 992px) {
   .white_border {
+    display: none; }
+
+  .dung_hero {
+    padding: 0; }
+
+  .dung_hero h1 {
+    padding: 0;
+    text-align: center;
+    margin-top: 20%; }
+
+  .intro img {
+    top: -450px; }
+
+  .resume_button {
+    margin-top: 160px;
+    padding-left: 75%; }
+
+  .passage {
+    padding-top: 10%; }
+
+  .vertical {
+    height: 400px; }
+
+  .vertical img {
+    margin-top: -450px; }
+
+  .overlay_vertical .hover_copy, .overlay_vertical .overlay .hover_copy h3, .overlay .hover_copy .overlay_vertical h3,
+  .overlay_vertical .overlay_wide .hover_copy h3,
+  .overlay_wide .hover_copy .overlay_vertical h3, .overlay_vertical .overlay .hover_copy p, .overlay .hover_copy .overlay_vertical p, .overlay_vertical .overlay_wide .hover_copy p, .overlay_wide .hover_copy .overlay_vertical p {
+    padding-top: 18%; }
+
+  .overlay_vertical .hover_copy p, .overlay .hover_copy .overlay_vertical h3 p,
+  .overlay_wide .hover_copy .overlay_vertical h3 p, .overlay .hover_copy .overlay_vertical p p, .overlay_wide .hover_copy .overlay_vertical p p {
+    padding-top: 2%; }
+
+  .cat_filter {
     display: none; } }
+@media screen and (max-width: 767px) {
+  body {
+    padding: 0; }
+
+  .navbar-collapse {
+    -webkit-box-shadow: inset 0 0 0 0;
+    -moz-box-shadow: inset 0 0 0 0;
+    box-shadow: inset 0 0 0 0; }
+
+  .navbar .nav {
+    width: 50%;
+    margin: 0 auto;
+    float: none; }
+
+  .navbar-toggle {
+    padding: 9px 17px; }
+
+  .overlay {
+    height: 140px;
+    opacity: 1;
+    margin-top: 38%; }
+
+  .overlay .hover_copy, .overlay .hover_copy h3,
+  .overlay_wide .hover_copy .overlay h3, .overlay .hover_copy p, .overlay_wide .hover_copy .overlay p {
+    margin-top: 3%;
+    padding-top: 0; }
+
+  .overlay .hover_copy p,
+  .overlay_wide .hover_copy .overlay h3 p, .overlay_wide .hover_copy .overlay p p {
+    padding-top: 16px; }
+
+  .hover_copy, .overlay .hover_copy h3,
+  .overlay_wide .hover_copy h3, .overlay .hover_copy p, .overlay_wide .hover_copy p {
+    color: #1f1ab2; }
+
+  .overlay .background {
+    background-color: #ffffff; }
+
+  .intro img {
+    top: -350px; }
+
+  .vertical {
+    height: 416px; }
+
+  .vertical img {
+    margin-top: -360px; }
+
+  .wide {
+    height: 320px; }
+
+  #wide_mobile {
+    margin-left: -200px;
+    height: 320px;
+    width: 1138px;
+    max-width: 1138px; }
+
+  button {
+    height: 100%; }
+
+  .navbar-default .navbar-collapse {
+    border-color: #08064b; } }

@@ -46,6 +46,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/cocktail_front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22620,
+		"inputAbbreviatedPath": "\/assets\/cocktail_front.jpg",
+		"outputAbbreviatedPath": "\/assets\/cocktail_front.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/coffee_cup_mockup_02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -145,6 +156,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57451,
+		"inputAbbreviatedPath": "\/assets\/front.jpg",
+		"outputAbbreviatedPath": "\/assets\/front.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/hero_img.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -240,6 +262,72 @@
 		"initialSize": 133322,
 		"inputAbbreviatedPath": "\/assets\/poster-final.jpg",
 		"outputAbbreviatedPath": "\/assets\/poster-final.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57451,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/cocktail_booklet_cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/cocktail_header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 145235,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/cocktail_header.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/cocktail_header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/flyer_mockup_a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 155573,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/flyer_mockup_b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200169,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/ingredients.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243761,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/ingredients.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/ingredients.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/cocktails\/ingredients24.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27386,
+		"inputAbbreviatedPath": "\/assets\/projects\/cocktails\/ingredients24.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/cocktails\/ingredients24.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -504,6 +592,94 @@
 		"initialSize": 80800,
 		"inputAbbreviatedPath": "\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
 		"outputAbbreviatedPath": "\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/demo1b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 387804,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/demo1b.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/demo1b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/demo2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 689869,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/demo2-mobile.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/demo2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/demo2b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 492593,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/demo2b.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/demo2b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/driving_webinar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 192206,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/driving_webinar.jpg",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/driving_webinar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/event-center.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 325293,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/event-center.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/event-center.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/laptop_air_demo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 502562,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/laptop_air_demo.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/laptop_air_demo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/report_02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 799490,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/report_02.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/report_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/projects\/website\/website_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 364899,
+		"inputAbbreviatedPath": "\/assets\/projects\/website\/website_header.png",
+		"outputAbbreviatedPath": "\/assets\/projects\/website\/website_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
