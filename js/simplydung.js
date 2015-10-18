@@ -10,9 +10,6 @@ Personal: http://www.peterberkidesign.com
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
 */
 
-//Ascertain width of window
-var windowWidth = window.innerWidth;
-
 //cocktail alt text
 var cocktailAlt = "An infographic about alcoholic drinks";
 var cocktail = "Do you know what you've been drinking? An infographic about your alcohol";
@@ -29,6 +26,8 @@ function textStatement(statement){
 
 //define function to replace text within cocktail function
 function cocktailReplacement(){
+	//Ascertain width of window
+	var windowWidth = window.innerWidth;
 	if(windowWidth <= 600){
 		return textStatement(cocktailAlt);
 	}else{
