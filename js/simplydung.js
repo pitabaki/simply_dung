@@ -10,6 +10,32 @@ Personal: http://www.peterberkidesign.com
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
 */
 
+//Ascertain width of window
+var windowWidth = window.innerWidth;
+
+//cocktail alt text
+var cocktailAlt = "An infographic about alcoholic drinks";
+var cocktail = "Do you know what you've been drinking? An infographic about your alcohol";
+
+//Text swap function
+function textStatement(statement){
+	var output = document.getElementById("cocktailStatement");
+	if(output.textContent !== 'undefined'){
+		output.textContent = statement;
+	}else{
+		output.innerText = statement;
+	}
+}
+
+//define function to replace text within cocktail function
+function cocktailReplacement(){
+	if(windowWidth <= 600){
+		return textStatement(cocktailAlt);
+	}else{
+		return textStatement(cocktail);
+	}
+}
+
 function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
@@ -92,5 +118,11 @@ function init(){
 			return false;
 		}
 	});
+
+	//instate text replacement for cocktail ID
+	cocktailReplacement();
 }
 window.onload = init;
+$(window).resize(function(){
+	cocktailReplacement();
+});
