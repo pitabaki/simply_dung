@@ -343,6 +343,15 @@ a:active {
   background-color: #1f1ab2;
   opacity: 1; }
 
+.navbar {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0; }
+
+.navbar li {
+  padding: 0; }
+
 .navbutton {
   margin-right: 8%;
   width: 60px; }
@@ -410,8 +419,8 @@ a:active {
 
 button {
   background-color: #ffffff;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #1f1ab2;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -586,8 +595,12 @@ button:focus {
   color: #1f1ab2;
   padding: 0; }
 
-.description a {
-  padding: 0; }
+.description h3 {
+  color: #282828; }
+
+.description a h3 {
+  padding: 0;
+  color: #1f1ab2; }
 
 .description h3.semi {
   padding-top: 20px; }
@@ -628,7 +641,7 @@ button:focus {
 .contact_icons a {
   margin: 10px;
   padding: 10px;
-  background-color: #282828;
+  background-color: #464646;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -636,7 +649,7 @@ button:focus {
   transition: background-color 0.5s ease; }
 
 .contact_icons a:hover {
-  background-color: #999999; }
+  background-color: #000000; }
 
 .contact_left a {
   float: right; }

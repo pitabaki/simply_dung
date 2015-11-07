@@ -42,7 +42,7 @@ function init(){
 	//data attribute values are stored here in the form off an array
 	//if data attributes change in value, modify the array to reflect those changes
 	//A query function was withheld. Quering the values of the data can speed up coding, but might slow down function
-	var classNames=["marketing","typography","data_visualization","motion","illustration"];
+	var classNames=["typography","data_visualization","animation","illustration"];
 
 	//empty array, to push classNames plus the concatenated formula below
 	var classQuery = [];

@@ -14,6 +14,12 @@
 
 //CSS Assignments
 
+.navbar
+	+borderRadius(0)
+
+.navbar li
+	padding: 0
+
 .navbutton
 	margin-right: 8%
 	width: 60px
@@ -76,7 +82,7 @@
 
 button
 	background-color: #ffffff
-	+perfectSquare(24px)
+	+perfectSquare(20px)
 	border: 2px solid $primary
 	+borderRadius(15px)
 	+animateTrans($default_transition)
@@ -243,8 +249,12 @@ button:focus
 	color: $primary
 	padding: 0
 
-.description a
+.description h3
+	color: $rich_grey
+
+.description a h3
 	padding: 0
+	color: $primary
 
 .description h3.semi
 	padding-top: 20px
@@ -286,12 +296,12 @@ button:focus
 .contact_icons a
 	margin: 10px
 	padding: 10px
-	background-color: $rich_grey
+	background-color: $lessRichGrey
 	+borderRadius(30px)
 	transition: background-color 0.5s ease
 
 .contact_icons a:hover
-	background-color: #999999
+	background-color: $black
 
 .contact_left a
 	float: right
