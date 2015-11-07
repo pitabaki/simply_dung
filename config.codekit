@@ -533,7 +533,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 155573,
+		"initialSize": 131086,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_a.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -544,9 +544,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 200169,
+		"initialSize": 197045,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/flyer_mockup_b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/cocktails\/front.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24142,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/front.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/cocktails\/front.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -573,6 +584,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/email_temp\/demo-email.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 353690,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo-email.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo-email.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/email_temp\/demo-email.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -591,6 +613,28 @@
 		"initialSize": 133855,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo-mobile-email.png",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo-mobile-email.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/email_temp\/demo1b.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101774,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo1b.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/demo1b.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/email_temp\/emails.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 268197,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/emails.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/email_temp\/emails.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -628,6 +672,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/exist\/11.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47834,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/11.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/11.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/book-cover.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156879,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/book-cover.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/book-cover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/exist\/chap3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -639,6 +705,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/exist\/chap3b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 154034,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/chap3b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/chap3b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/exist\/exist_poster.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -646,6 +723,39 @@
 		"initialSize": 479950,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/exist_poster.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/exist_poster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/mock-ups-a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59114,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-a.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/mock-ups-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 241426,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/exist\/mock-ups-f.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 146388,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-f.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-f.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -698,7 +808,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 184568,
+		"initialSize": 711481,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Ariba blog.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Ariba blog.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -712,6 +822,17 @@
 		"initialSize": 48773,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/digital_blog-01.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/digital_blog-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/social_media\/digital_blog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28590,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/digital_blog.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/digital_blog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -749,11 +870,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/social_media\/GoDigital_Fb_Timeline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134022,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/GoDigital_Fb_Timeline.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/GoDigital_Fb_Timeline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/social_media\/May-18-email-signature.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 35241,
+		"initialSize": 74630,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/May-18-email-signature.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/May-18-email-signature.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -793,6 +925,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/social_media\/May-5-webinar-email-signature.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133708,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/May-5-webinar-email-signature.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/May-5-webinar-email-signature.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/social_media\/newsletter header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47361,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/newsletter header.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/newsletter header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/social_media\/onboards_competition.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -800,6 +954,17 @@
 		"initialSize": 36481,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/onboards_competition.png",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/onboards_competition.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/social_media\/Prague event.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36197,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Prague event.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Prague event.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -826,6 +991,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/social_media\/Supplier-Fee-Calculator.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94911,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Supplier-Fee-Calculator.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/Supplier-Fee-Calculator.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/social_media\/supplier_fee_calculator.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -833,6 +1009,50 @@
 		"initialSize": 80800,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/supplier_fee_calculator.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/social_media\/tablet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361146,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/tablet.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/center_trial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216788,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/center_trial.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/center_trial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/center_trial_header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133375,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/center_trial_header.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/center_trial_header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/demo1b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 340264,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo1b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo1b.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -859,6 +1079,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/website\/demo2b-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126384,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/demo2b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 440938,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/demo2b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/website\/demo2b.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -877,6 +1119,17 @@
 		"initialSize": 192206,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/driving_webinar.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/driving_webinar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/event-center.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242964,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/event-center.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/event-center.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -910,6 +1163,17 @@
 		"initialSize": 799490,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/report_02.png",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/report_02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/website\/web_header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 376588,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/website\/web_header.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/website\/web_header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
