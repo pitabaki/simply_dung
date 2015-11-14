@@ -10,12 +10,18 @@ Personal: http://www.peterberkidesign.com
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
 */
 
-//cocktail alt text
+/*
+
+Cocktail Alt Text Functions
+
+*/
+
 var cocktailAlt = "An infographic about alcoholic drinks";
 var cocktail = "Do you know what you've been drinking? An infographic about your alcohol";
 
 //Text swap function
 function textStatement(statement){
+	'use strict';
 	var output = document.getElementById("cocktailStatement");
 	if(output.textContent !== 'undefined'){
 		output.textContent = statement;
@@ -26,6 +32,7 @@ function textStatement(statement){
 
 //define function to replace text within cocktail function
 function cocktailReplacement(){
+	'use strict';
 	//Ascertain width of window
 	var windowWidth = window.innerWidth;
 	if(windowWidth <= 600){
@@ -35,10 +42,53 @@ function cocktailReplacement(){
 	}
 }
 
+/*
+
+End Cocktail Alt Text Functions
+
+*/
+
 function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
 
+	var animating = {
+		animateInd: function(id,position,opac){
+			console.log("WORKING");
+			if(typeof id === "string"){
+				var element = document.getElementById(id);
+				if((typeof position === "string") && (typeof opac === "string") && (position !== '') && (opac !== '')){
+					element.style.marginTop = position;
+					element.style.opacity = opac;
+				}else if((typeof position === "string") && (position !== '') && (opac === '')){
+					element.style.marginTop = position;
+				}else if((typeof opac === "string") && (opac !== '') && (position === '')){
+					element.style.opacity = opac;
+				}else{
+					alert("Error AnimateIn: only an id was passed.");
+				}
+			}else{
+				alert("Something's gone wrong with AnimateIn");
+			}
+		},
+		animateGrp: function(id,opac){
+			console.log("WORKING part 2");
+			if(typeof id === "string"){
+				var grouping = document.getElementById(id);
+				var grpChild = grouping.childNodes;
+				console.log("This is grpChild: " + grpChild);
+				for(var i = 0; i < grpChild.length; i++){
+					if(typeof grpChild[i].innerHTML === "string"){
+						console.log(grpChild[i]);
+						//grpChild[i].style.opacity = opac;
+					}
+				}
+			}
+		}
+	};
+	console.log(animating);
+	animating.animateInd("hero","0","1");
+	animating.animateGrp("resume","1");
 	//data attribute values are stored here in the form off an array
 	//if data attributes change in value, modify the array to reflect those changes
 	//A query function was withheld. Quering the values of the data can speed up coding, but might slow down function

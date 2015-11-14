@@ -54,14 +54,14 @@ li {
   line-height: 32px; }
 
 a {
-  color: #92cafd;
+  color: #b8dcfd;
   text-decoration: none;
   transition: all 0.5 ease; }
 
 a:hover,
 a:focus,
 a:active {
-  color: #c5e1f7;
+  color: #cce6fe;
   text-decoration: none; }
 
 .row {
@@ -91,6 +91,11 @@ a:active {
 
 .email_address:hover {
   color: #08064b; }
+
+#hero {
+  margin-top: 10%;
+  opacity: 0;
+  transition: all 0.5s ease-out; }
 
 .hero_fg {
   width: 100%;
@@ -278,7 +283,7 @@ a:active {
   width: 100%; }
 
 .blank {
-  background-color: #92cafd;
+  background-color: #b8dcfd;
   padding: 2.5px 5px;
   height: 220px;
   border-left: 5px solid #ffffff;
@@ -330,7 +335,7 @@ a:active {
 
 .overlay .hover_copy h3:hover,
 .overlay_wide .hover_copy .overlay h3 h3:hover, .overlay_wide .hover_copy .overlay p h3:hover {
-  color: #92cafd; }
+  color: #b8dcfd; }
 
 .overlay:hover {
   opacity: 1; }
@@ -357,13 +362,13 @@ a:active {
   width: 60px; }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #92cafd; }
+  background-color: #b8dcfd; }
 
 .navbar-default .navbar-toggle:hover {
   background-color: #0c0874; }
 
 .navbar-default .navbar-toggle {
-  border-color: #92cafd; }
+  border-color: #b8dcfd; }
 
 .light {
   font-weight: 300; }
@@ -472,7 +477,7 @@ button:focus {
 .navbar-default .navbar-nav > li > a {
   font-size: 16px;
   font-weight: 400;
-  color: #92cafd;
+  color: #b8dcfd;
   line-height: 22px;
   text-shadow: none;
   text-transform: capitalize;
@@ -507,7 +512,7 @@ button:focus {
   height: 100%; }
 
 .dung_hero h1 {
-  color: #92cafd;
+  color: #b8dcfd;
   font-weight: 500;
   text-align: left;
   padding-top: 30%;
@@ -525,13 +530,13 @@ button:focus {
 .passage h3 {
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  color: #c5e1f7; }
+  color: #cce6fe; }
 
 .passage p {
   position: absolute;
   font-weight: 300;
   text-rendering: optimizeLegibility;
-  color: #c5e1f7;
+  color: #cce6fe;
   width: 70%;
   z-index: 4; }
 
@@ -568,7 +573,7 @@ button:focus {
   z-index: 2; }
 
 #resume_button h3 a {
-  color: #92cafd;
+  color: #b8dcfd;
   font-weight: 500;
   text-rendering: optimizeLegibility;
   text-decoration: none; }
@@ -663,10 +668,10 @@ button:focus {
   color: #ffffff; }
 
 .skills {
-  background-color: #c5e1f7; }
+  background-color: #cce6fe; }
 
 .education {
-  background-color: #92cafd; }
+  background-color: #b8dcfd; }
 
 .resume_spec {
   margin: 0 auto;
@@ -751,7 +756,7 @@ button:focus {
 
 .experience {
   padding-bottom: 30px;
-  border-bottom: 1px solid #c5e1f7; }
+  border-bottom: 1px solid #cce6fe; }
 
 .inactive {
   background-color: #282828;
@@ -902,7 +907,8 @@ a .active {
   .navbar-default .navbar-collapse {
     border-color: #08064b; } }
 @media screen and (max-width: 660px) {
-  .wide {
+  .wide,
+  .vertical {
     height: 360px; }
 
   .intro img {
