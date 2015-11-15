@@ -223,6 +223,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/directory\/tradeshow.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/tradeshow.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/directory\/website.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -767,6 +776,17 @@
 		"initialSize": 361146,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/tablet.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/social_media\/tablet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39597,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_header.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

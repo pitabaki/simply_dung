@@ -64,7 +64,7 @@ function init(){
 			setTimeout(function time(){
 				if((typeof id === "string") && (element !== null)){
 					if((typeof position === "string") && (typeof opac === "string")){
-						element.style.marginTop = position;
+						element.style.marginLeft = position;
 						element.style.opacity = opac;
 					}else if((typeof position === "string") && (position !== '') && (opac === '')){
 						element.style.marginTop = position;
