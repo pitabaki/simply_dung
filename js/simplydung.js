@@ -52,43 +52,74 @@ function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
 
+	/*
+
+	Object for Animations
+
+	*/
 	var animating = {
 		animateInd: function(id,position,opac){
-			console.log("WORKING");
-			if(typeof id === "string"){
-				var element = document.getElementById(id);
-				if((typeof position === "string") && (typeof opac === "string") && (position !== '') && (opac !== '')){
-					element.style.marginTop = position;
-					element.style.opacity = opac;
-				}else if((typeof position === "string") && (position !== '') && (opac === '')){
-					element.style.marginTop = position;
-				}else if((typeof opac === "string") && (opac !== '') && (position === '')){
-					element.style.opacity = opac;
+			//console.log("WORKING");
+			var element = document.getElementById(id);
+			setTimeout(function time(){
+				if((typeof id === "string") && (element !== null)){
+					if((typeof position === "string") && (typeof opac === "string")){
+						element.style.marginTop = position;
+						element.style.opacity = opac;
+					}else if((typeof position === "string") && (position !== '') && (opac === '')){
+						element.style.marginTop = position;
+					}else if((typeof opac === "string") && (opac !== '') && (position === '')){
+						element.style.opacity = opac;
+					}else{
+						alert("Error AnimateIn: only an id was passed.");
+					}
 				}else{
-					alert("Error AnimateIn: only an id was passed.");
+					return false;
 				}
-			}else{
-				alert("Something's gone wrong with AnimateIn");
-			}
+			}, 500);
 		},
 		animateGrp: function(id,opac){
-			console.log("WORKING part 2");
-			if(typeof id === "string"){
-				var grouping = document.getElementById(id);
+			//console.log("WORKING part 2");
+			var grouping = document.getElementById(id);
+			if((typeof id === "string") && (grouping !== null)){
 				var grpChild = grouping.childNodes;
-				console.log("This is grpChild: " + grpChild);
-				for(var i = 0; i < grpChild.length; i++){
-					if(typeof grpChild[i].innerHTML === "string"){
-						console.log(grpChild[i]);
-						//grpChild[i].style.opacity = opac;
+				setTimeout(function time(){
+					for(var i = 0; i < grpChild.length; i++){
+						if(typeof grpChild[i].innerHTML === "string"){
+							grpChild[i].style.opacity = opac;
+						}
 					}
-				}
+				},1000);
+			}else{
+				return false;
 			}
 		}
 	};
-	console.log(animating);
+
+	/*
+
+	End Object for Animations
+
+	*/
+
+	var animateID = ["hero","resume","passage"];
+
+	/*
+	
+	Call all animations
+
+	*/
+
 	animating.animateInd("hero","0","1");
 	animating.animateGrp("resume","1");
+	animating.animateGrp("passage","1");
+
+	/*
+	
+	Ende Call all animations
+
+	*/
+
 	//data attribute values are stored here in the form off an array
 	//if data attributes change in value, modify the array to reflect those changes
 	//A query function was withheld. Quering the values of the data can speed up coding, but might slow down function

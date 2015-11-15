@@ -540,6 +540,12 @@ button:focus {
   width: 70%;
   z-index: 4; }
 
+.resume h3,
+#passage h3,
+#passage p {
+  opacity: 0;
+  transition: opacity 0.5s ease; }
+
 .resume_block {
   display: block;
   overflow: hidden;
