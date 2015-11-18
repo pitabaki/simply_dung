@@ -58,13 +58,33 @@ function init(){
 
 	*/
 	var animating = {
-		animateInd: function(id,position,opac){
+		animIndLeft: function(id,position,opac,time){
 			//console.log("WORKING");
 			var element = document.getElementById(id);
 			setTimeout(function time(){
 				if((typeof id === "string") && (element !== null)){
 					if((typeof position === "string") && (typeof opac === "string")){
 						element.style.marginLeft = position;
+						element.style.opacity = opac;
+					}else if((typeof position === "string") && (position !== '') && (opac === '')){
+						element.style.marginLeft = position;
+					}else if((typeof opac === "string") && (opac !== '') && (position === '')){
+						element.style.opacity = opac;
+					}else{
+						alert("Error AnimateIn: only an id was passed.");
+					}
+				}else{
+					return false;
+				}
+			}, time);
+		},
+		animIndTop: function(id,position,opac,time){
+			//console.log("WORKING");
+			var element = document.getElementById(id);
+			setTimeout(function time(){
+				if((typeof id === "string") && (element !== null)){
+					if((typeof position === "string") && (typeof opac === "string")){
+						element.style.marginTop = position + "px";
 						element.style.opacity = opac;
 					}else if((typeof position === "string") && (position !== '') && (opac === '')){
 						element.style.marginTop = position;
@@ -76,9 +96,9 @@ function init(){
 				}else{
 					return false;
 				}
-			}, 500);
+			}, time);
 		},
-		animateGrp: function(id,opac){
+		animGrp: function(id,opac,time){
 			//console.log("WORKING part 2");
 			var grouping = document.getElementById(id);
 			if((typeof id === "string") && (grouping !== null)){
@@ -89,7 +109,7 @@ function init(){
 							grpChild[i].style.opacity = opac;
 						}
 					}
-				},1000);
+				},time);
 			}else{
 				return false;
 			}
@@ -110,9 +130,10 @@ function init(){
 
 	*/
 
-	animating.animateInd("hero","0","1");
-	animating.animateGrp("resume","1");
-	animating.animateGrp("passage","1");
+	animating.animIndLeft("hero","0","1",500);
+	animating.animIndTop("resume_button","180","1",750);
+	animating.animGrp("resume","1",1000);
+	animating.animGrp("passage","1",1000);
 
 	/*
 	
