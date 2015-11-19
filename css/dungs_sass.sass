@@ -207,6 +207,11 @@ button:focus
 	padding-left: 70%
 	transition: margin 0.5s ease
 
+#dung_logo_img
+	margin-top: 320px
+	opacity: 0
+	transition: all 1s ease
+
 .corner_shape a
 	position: absolute
 	width: 500px
@@ -424,12 +429,14 @@ button:focus
 .imgObj
 	+animateTrans(all 1s ease)
 
+.dark_bg
+	background-color: $rich_grey
 a .active
 	opacity: 0.25
 
-@media screen and(max-width: 1200px)
+@media screen and(max-width: 1220px)
 	.white_top_border
-		top: 455px
+		top: 445px
 
 	.hero_shot
 		height: 380px
@@ -590,6 +597,10 @@ a .active
 		width: 100%
 		text-align: center
 		border-bottom: 1px solid $primary_shade_active
+	.resume_spec
+		height: 740px
+	.response_intro
+		height: 460px
 
 @media screen and (max-width:440px)
 	.overlay
@@ -611,3 +622,7 @@ a .active
 		margin-left: -25%
 	.hero_shot
 		height: 200px
+	.resume_spec
+		height: 840px
+	.response_intro
+		height: 400px

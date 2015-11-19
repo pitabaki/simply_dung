@@ -791,6 +791,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_001.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 213314,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_001.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_001.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_002.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204494,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_002.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_002.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_003.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220293,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_003.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_003.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_004.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 267464,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_004.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_004.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_005a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143602,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_005a.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_005a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/tradeshow\/tradeshow_project_005b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222424,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_005b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/tradeshow\/tradeshow_project_005b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/assets\/projects\/website\/center_trial.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

@@ -31,10 +31,9 @@ function textStatement(statement){
 }
 
 //define function to replace text within cocktail function
-function cocktailReplacement(){
+function cocktailReplacement(windowWidth){
 	'use strict';
 	//Ascertain width of window
-	var windowWidth = window.innerWidth;
 	if(windowWidth <= 600){
 		return textStatement(cocktailAlt);
 	}else{
@@ -57,6 +56,8 @@ function init(){
 	Object for Animations
 
 	*/
+
+	var windowWidth = window.innerWidth;
 	var animating = {
 		animIndLeft: function(id,position,opac,time){
 			//console.log("WORKING");
@@ -132,12 +133,14 @@ function init(){
 
 	animating.animIndLeft("hero","0","1",500);
 	animating.animIndTop("resume_button","180","1",750);
+	animating.animIndTop("dung_logo_img","0","1",0);
 	animating.animGrp("resume","1",1000);
 	animating.animGrp("passage","1",1000);
 
+
 	/*
 	
-	Ende Call all animations
+	End Call all animations
 
 	*/
 
@@ -221,7 +224,7 @@ function init(){
 	});
 
 	//instate text replacement for cocktail ID
-	cocktailReplacement();
+	cocktailReplacement(windowWidth);
 }
 window.onload = init;
 $(window).resize(function(){
