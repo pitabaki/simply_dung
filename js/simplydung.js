@@ -99,7 +99,7 @@ function init(){
 				}
 			}, time);
 		},
-		animGrp: function(id,opac,time){
+		animOpac: function(id,opac,time){
 			//console.log("WORKING part 2");
 			var grouping = document.getElementById(id);
 			if((typeof id === "string") && (grouping !== null)){
@@ -131,11 +131,11 @@ function init(){
 
 	*/
 
-	animating.animIndLeft("hero","0","1",500);
+	animating.animIndLeft("hero","0","1",750);
 	animating.animIndTop("resume_button","180","1",750);
 	animating.animIndTop("dung_logo_img","0","1",0);
-	animating.animGrp("resume","1",1000);
-	animating.animGrp("passage","1",1000);
+	animating.animOpac("resume","1",1000);
+	animating.animOpac("passage","1",1000);
 
 
 	/*
@@ -222,11 +222,13 @@ function init(){
 			return false;
 		}
 	});
-
+	$(window).resize(function(){
+		setTimeout(function(){
+			windowWidth = window.innerWidth;
+			cocktailReplacement(windowWidth);
+		},500);
+	});
 	//instate text replacement for cocktail ID
 	cocktailReplacement(windowWidth);
 }
 window.onload = init;
-$(window).resize(function(){
-	cocktailReplacement();
-});

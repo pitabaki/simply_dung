@@ -795,6 +795,13 @@ button:focus {
 a .active {
   opacity: 0.25; }
 
+.resume a {
+  color: #ffffff;
+  transition: color 0.5s ease; }
+
+.resume a:hover {
+  color: #08064b; }
+
 @media screen and (max-width: 1220px) {
   .white_top_border {
     top: 445px; }
@@ -946,7 +953,6 @@ a .active {
 
   .intro_passage {
     height: 100%;
-    top: -350px;
     background-color: rgba(255, 255, 255, 0); }
 
   .passage {
@@ -990,6 +996,16 @@ a .active {
     text-align: center;
     border-bottom: 1px solid #08064b; }
 
+  .overlay {
+    height: 120px; }
+
+  #wide_mobile {
+    height: 240px;
+    width: 880px; }
+
+  .mobile-row {
+    margin-top: -80px; }
+
   .resume_spec {
     height: 740px; }
 
@@ -1025,7 +1041,14 @@ a .active {
     height: 200px; }
 
   .resume_spec {
+    margin-top: 22px;
     height: 840px; }
 
   .response_intro {
-    height: 400px; } }
+    height: 400px; }
+
+  .mobile-row {
+    margin: 0 auto; }
+
+  .resume h3 {
+    padding: 0 15%; } }
