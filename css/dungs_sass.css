@@ -267,6 +267,21 @@ a:active {
 #cocktail_05 {
   background-color: #999999; }
 
+#lost_01 {
+  background-color: #71588f; }
+
+#lost_02 {
+  background-color: #9292b1; }
+
+#lost_03 {
+  background-color: #dcddde; }
+
+#lost_04 {
+  background-color: #2ab0ba; }
+
+#lost_05 {
+  background-color: #fbb040; }
+
 .overlay {
   position: absolute;
   z-index: 5;
@@ -802,6 +817,13 @@ a .active {
 .resume a:hover {
   color: #08064b; }
 
+#nav {
+  height: 52px; }
+
+.jetpack {
+  margin-top: -35px;
+  transition: all 0.5s ease; }
+
 @media screen and (max-width: 1220px) {
   .white_top_border {
     top: 445px; }
@@ -816,7 +838,8 @@ a .active {
     display: none; }
 
   .dung_hero {
-    padding: 0; }
+    padding: 0;
+    text-align: center; }
 
   .dung_hero h1 {
     padding: 0;
@@ -826,7 +849,7 @@ a .active {
 
   .resume h3 {
     margin: 0 auto;
-    padding: 0 25%;
+    padding: 0 15%;
     width: 100%; }
 
   #resume_button h3 {
@@ -1041,8 +1064,10 @@ a .active {
     height: 200px; }
 
   .resume_spec {
-    margin-top: 22px;
     height: 840px; }
+
+  .skills {
+    margin-top: 22px; }
 
   .response_intro {
     height: 400px; }

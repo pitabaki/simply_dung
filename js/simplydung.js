@@ -114,6 +114,29 @@ function init(){
 			}else{
 				return false;
 			}
+		},
+		animGrpTop: function(id,position,classCheck,time){
+			//console.log("WORKING part 2");
+			var grouping = document.getElementById(id);
+			function delay(element){
+				setTimeout(function(){
+					element.style.marginTop = position + "px";
+					console.log("time");
+				}, 400);
+			}
+			if((typeof id === "string") && (grouping !== null)){
+				var grpChild = grouping.childNodes;
+				console.log(grpChild);
+				setTimeout(function time(){
+					for(var i = 0; i < grpChild.length; i++){
+						if(grpChild[i].className === classCheck){
+							delay(grpChild[i]);
+						}
+					}
+				},time);
+			}else{
+				return false;
+			}
 		}
 	};
 
@@ -136,6 +159,7 @@ function init(){
 	animating.animIndTop("dung_logo_img","0","1",0);
 	animating.animOpac("resume","1",1000);
 	animating.animOpac("passage","1",1000);
+	animating.animGrpTop("nav","0","jetpack",400);
 
 
 	/*

@@ -205,6 +205,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/directory\/lost.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/directory\/lost.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/directory\/resume.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -644,6 +653,127 @@
 		"initialSize": 146388,
 		"inputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-f.jpg",
 		"outputAbbreviatedPath": "\/img\/assets\/projects\/exist\/mock-ups-f.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/icons.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39658,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/icons.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/icons.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/initial-concept.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173809,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/initial-concept.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/initial-concept.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/Lost-poster-mock-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 553056,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/Lost-poster-mock-up.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/Lost-poster-mock-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/lost.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75356,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/lost.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/lost.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/mock-up-b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98076,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/mock-up-b.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/mock-up-b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/mock-up.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100471,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/mock-up.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/mock-up.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/restroom1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150455,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/restroom1.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/restroom1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/sfo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123632,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/sfo.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/sfo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/survey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50960,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/survey.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/survey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/survey2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68429,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/survey2.png",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/survey2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/assets\/projects\/lost\/toc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178540,
+		"inputAbbreviatedPath": "\/img\/assets\/projects\/lost\/toc.jpg",
+		"outputAbbreviatedPath": "\/img\/assets\/projects\/lost\/toc.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
