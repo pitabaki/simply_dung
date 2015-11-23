@@ -95,7 +95,21 @@ function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
 
-	var windowWidth = window.innerWidth;
+	var windowWidth = window.innerWidth,
+		resumeOffset = "140";
+
+	//function sets marginTop for resume_button
+	function resumeSet(width){
+		if(width > 1200){
+			resumeOffset = "140";
+			animating.indTop("resume_button",resumeOffset,"1",750);
+		}else{
+			resumeOffset = "180";
+			animating.indTop("resume_button",resumeOffset,"1",750);
+		}
+	}
+	//initial call
+	resumeSet(windowWidth);
 
 	/*
 	
@@ -104,13 +118,12 @@ function init(){
 	*/
 
 	animating.indLeft("hero","0","1",750);
-	animating.indTop("resume_button","140","1",750);
 	animating.indTop("dung_logo_img","0","1",0);
 	animating.opac("resume","1",1000);
 	animating.opac("passage","1",1000);
 	animating.grpTop("nav","0","jetpack",400);
 	animating.Id("resume_button").onclick = improbDrive;
-	
+
 	/*
 	
 	End Call all animations
@@ -195,9 +208,12 @@ function init(){
 			return false;
 		}
 	});
+
+	//When the window is resized, call the following functions
 	$(window).resize(function(){
 		setTimeout(function(){
 			windowWidth = window.innerWidth;
+			resumeSet(windowWidth);
 			cocktailReplacement(windowWidth);
 		},500);
 	});

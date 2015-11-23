@@ -832,7 +832,8 @@ a .active {
     height: 380px; }
 
   #resume_button {
-    margin-top: 180px; } }
+    margin-top: 400px;
+    padding-left: 65%; } }
 @media screen and (max-width: 992px) {
   .hero_shot {
     height: 300px; }
