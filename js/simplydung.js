@@ -1,14 +1,20 @@
-/*
-JavaScript for SimplyDung
+/*************************************
+//////////////////////////////////////
 
-************************************
-Developed by: Peter Berki
+SIMPLY DUNG DOT JS
+
+Purpose:
+Control and parse out dynamic content, including animations and transitions.
+
+Developed By:
+Darth Berki
 GitHub: PitaBaki // http://www.github.com/pitabaki
 Personal: http://www.peterberkidesign.com
-************************************
 
 To be used in harmony with Bootstrap 3 and jQuery v2.1.4 (the library utilized by Bootstrap3)
-*/
+
+//////////////////////////////////////
+*************************************/
 
 /*
 
@@ -40,6 +46,46 @@ function cocktailReplacement(windowWidth){
 		return textStatement(cocktail);
 	}
 }
+//DOM navigation and transportation for onclick
+function improbDrive(){
+	/*var id = this.id;
+	animating.indTop(id,"360","1",0);
+	var pos = this.style.marginTop;
+	if(pos === "180px"){alert(this.id);}
+	alert(this.style.transition);*/
+	//return false;
+
+	var grandparent = this.childNodes,
+		dad = '',
+		emptyHREF = '',
+		kid = '';
+		console.log(grandparent);
+		for(var h = 0; h < grandparent.length; h++){
+			if(typeof grandparent[h] !== "text"){
+				dad = grandparent[h].childNodes;
+				for(var i = 0; i < dad.length; i++){
+					if((typeof dad[i].href === "undefined") && (dad[i].childNodes.length > 1)){
+						kid = dad[i].childNodes;
+						for(var g = 0; g < kid.length; g++){
+							if(typeof kid[g].href !== "undefined"){
+								animating.indTop(this.id,"360","1",0);
+								emptyHREF = kid[g].href;
+								//window.location = kid[g].href;
+							}
+						}
+					}
+				}
+			}
+		}
+		setTimeout(function(){
+			window.location = emptyHREF;
+		}, 500);
+
+		//IMPORTANT: If return false isn't in place, HREF will automatically get loaded.
+		return false;
+	//setTimeout(testFunc, 5000);
+
+}
 
 /*
 
@@ -58,87 +104,6 @@ function init(){
 	*/
 
 	var windowWidth = window.innerWidth;
-	var animating = {
-		animIndLeft: function(id,position,opac,time){
-			//console.log("WORKING");
-			var element = document.getElementById(id);
-			setTimeout(function time(){
-				if((typeof id === "string") && (element !== null)){
-					if((typeof position === "string") && (typeof opac === "string")){
-						element.style.marginLeft = position;
-						element.style.opacity = opac;
-					}else if((typeof position === "string") && (position !== '') && (opac === '')){
-						element.style.marginLeft = position;
-					}else if((typeof opac === "string") && (opac !== '') && (position === '')){
-						element.style.opacity = opac;
-					}else{
-						alert("Error AnimateIn: only an id was passed.");
-					}
-				}else{
-					return false;
-				}
-			}, time);
-		},
-		animIndTop: function(id,position,opac,time){
-			//console.log("WORKING");
-			var element = document.getElementById(id);
-			setTimeout(function time(){
-				if((typeof id === "string") && (element !== null)){
-					if((typeof position === "string") && (typeof opac === "string")){
-						element.style.marginTop = position + "px";
-						element.style.opacity = opac;
-					}else if((typeof position === "string") && (position !== '') && (opac === '')){
-						element.style.marginTop = position;
-					}else if((typeof opac === "string") && (opac !== '') && (position === '')){
-						element.style.opacity = opac;
-					}else{
-						alert("Error AnimateIn: only an id was passed.");
-					}
-				}else{
-					return false;
-				}
-			}, time);
-		},
-		animOpac: function(id,opac,time){
-			//console.log("WORKING part 2");
-			var grouping = document.getElementById(id);
-			if((typeof id === "string") && (grouping !== null)){
-				var grpChild = grouping.childNodes;
-				setTimeout(function time(){
-					for(var i = 0; i < grpChild.length; i++){
-						if(typeof grpChild[i].innerHTML === "string"){
-							grpChild[i].style.opacity = opac;
-						}
-					}
-				},time);
-			}else{
-				return false;
-			}
-		},
-		animGrpTop: function(id,position,classCheck,time){
-			//console.log("WORKING part 2");
-			var grouping = document.getElementById(id);
-			function delay(element){
-				setTimeout(function(){
-					element.style.marginTop = position + "px";
-					console.log("time");
-				}, 400);
-			}
-			if((typeof id === "string") && (grouping !== null)){
-				var grpChild = grouping.childNodes;
-				console.log(grpChild);
-				setTimeout(function time(){
-					for(var i = 0; i < grpChild.length; i++){
-						if(grpChild[i].className === classCheck){
-							delay(grpChild[i]);
-						}
-					}
-				},time);
-			}else{
-				return false;
-			}
-		}
-	};
 
 	/*
 
@@ -146,20 +111,20 @@ function init(){
 
 	*/
 
-	var animateID = ["hero","resume","passage"];
-
 	/*
 	
 	Call all animations
 
 	*/
 
-	animating.animIndLeft("hero","0","1",750);
-	animating.animIndTop("resume_button","180","1",750);
-	animating.animIndTop("dung_logo_img","0","1",0);
-	animating.animOpac("resume","1",1000);
-	animating.animOpac("passage","1",1000);
-	animating.animGrpTop("nav","0","jetpack",400);
+
+	animating.indLeft("hero","0","1",750);
+	animating.indTop("resume_button","180","1",750);
+	animating.indTop("dung_logo_img","0","1",0);
+	animating.opac("resume","1",1000);
+	animating.opac("passage","1",1000);
+	animating.grpTop("nav","0","jetpack",400);
+	animating.Id("resume_button").onclick = improbDrive;
 
 
 	/*
