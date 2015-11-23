@@ -21,7 +21,7 @@ var animating = {
 			if(typeof id === "string"){
 				return document.getElementById(id);
 			}else{
-				console.log("Id was not properly passed to animating.select().")
+				console.log("Id was not properly passed to animating.select().");
 				return false;
 			}
 		},

@@ -54,12 +54,10 @@ function improbDrive(){
 	if(pos === "180px"){alert(this.id);}
 	alert(this.style.transition);*/
 	//return false;
-
 	var grandparent = this.childNodes,
 		dad = '',
 		emptyHREF = '',
 		kid = '';
-		console.log(grandparent);
 		for(var h = 0; h < grandparent.length; h++){
 			if(typeof grandparent[h] !== "text"){
 				dad = grandparent[h].childNodes;
@@ -68,7 +66,7 @@ function improbDrive(){
 						kid = dad[i].childNodes;
 						for(var g = 0; g < kid.length; g++){
 							if(typeof kid[g].href !== "undefined"){
-								animating.indTop(this.id,"360","1",0);
+								animating.indTop(this.id,"400","1",0);
 								emptyHREF = kid[g].href;
 								//window.location = kid[g].href;
 							}
@@ -79,7 +77,7 @@ function improbDrive(){
 		}
 		setTimeout(function(){
 			window.location = emptyHREF;
-		}, 500);
+		}, 800);
 
 		//IMPORTANT: If return false isn't in place, HREF will automatically get loaded.
 		return false;
@@ -97,19 +95,7 @@ function init(){
 	//To reduce sloppy coding, I've implemented 'use strict'
 	'use strict';
 
-	/*
-
-	Object for Animations
-
-	*/
-
 	var windowWidth = window.innerWidth;
-
-	/*
-
-	End Object for Animations
-
-	*/
 
 	/*
 	
@@ -117,16 +103,14 @@ function init(){
 
 	*/
 
-
 	animating.indLeft("hero","0","1",750);
-	animating.indTop("resume_button","180","1",750);
+	animating.indTop("resume_button","140","1",750);
 	animating.indTop("dung_logo_img","0","1",0);
 	animating.opac("resume","1",1000);
 	animating.opac("passage","1",1000);
 	animating.grpTop("nav","0","jetpack",400);
 	animating.Id("resume_button").onclick = improbDrive;
-
-
+	
 	/*
 	
 	End Call all animations
