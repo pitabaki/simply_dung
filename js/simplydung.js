@@ -209,7 +209,8 @@ function init(){
 		}
 	});
 
-	//When the window is resized, call the following functions
+	//When the window is resized, 
+	//call the following functions
 	$(window).resize(function(){
 		setTimeout(function(){
 			windowWidth = window.innerWidth;
