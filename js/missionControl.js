@@ -70,7 +70,7 @@ var animating = {
 			}, time);
 		},
 		//Animates groups of elements using opacity
-		opac: function(id,opac,time){
+		grpOpac: function(id,opac,time){
 			"use strict";
 			//console.log("WORKING part 2");
 			var grouping = document.getElementById(id);
@@ -83,6 +83,21 @@ var animating = {
 						}
 					}
 				},time);
+			}else{
+				return false;
+			}
+		},
+		//Animates individual elements using opacity
+		indOpac: function(id,opac,time){
+			"use strict";
+			//console.log("WORKING part 2");
+			if(typeof id === "string"){
+				var elem = document.getElementById(id);
+				if(elem !== null){
+					setTimeout(function(){
+						elem.style.opacity = opac;
+					},time);
+				}
 			}else{
 				return false;
 			}

@@ -117,11 +117,11 @@ function init(){
 
 	*/
 
-	animating.indLeft("hero","0","1",750);
-	animating.indTop("dung_logo_img","0","1",0);
-	animating.opac("resume","1",1000);
-	animating.opac("passage","1",1000);
-	animating.grpTop("nav","0","jetpack",400);
+	animating.indOpac("hero","1",250);
+	animating.indTop("dung_logo_img","0","1",1000);
+	animating.grpOpac("resume","1",750);
+	animating.grpOpac("passage","1",500);
+	//animating.grpTop("nav","0","jetpack",400);
 	animating.Id("resume_button").onclick = improbDrive;
 
 	/*
