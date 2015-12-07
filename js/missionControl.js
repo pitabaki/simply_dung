@@ -73,18 +73,20 @@ var animating = {
 		grpOpac: function(id,opac,time){
 			"use strict";
 			//console.log("WORKING part 2");
-			var grouping = document.getElementById(id);
-			if((typeof id === "string") && (grouping !== null)){
-				var grpChild = grouping.childNodes;
-				setTimeout(function(){
-					for(var i = 0; i < grpChild.length; i++){
-						if(typeof grpChild[i].innerHTML === "string"){
-							grpChild[i].style.opacity = opac;
+			if(typeof id === "string"){
+				var grouping = document.getElementById(id);
+				if(grouping !== null){
+					var grpChild = grouping.childNodes;
+					setTimeout(function(){
+						for(var i = 0; i < grpChild.length; i++){
+							if(typeof grpChild[i].innerHTML === "string"){
+								grpChild[i].style.opacity = opac;
+							}
 						}
-					}
-				},time);
-			}else{
-				return false;
+					},time);
+				}else{
+					return false;
+				}
 			}
 		},
 		//Animates individual elements using opacity

@@ -46,7 +46,9 @@ function cocktailReplacement(windowWidth){
 		return textStatement(cocktail);
 	}
 }
+
 //DOM navigation and transportation for onclick
+//improbDrive halts the href of an onclick from loading, performs an animation, then proceeds to the link.
 function improbDrive(){
 	/*var id = this.id;
 	animating.indTop(id,"360","1",0);
@@ -119,6 +121,8 @@ function init(){
 
 	animating.indOpac("hero","1",250);
 	animating.indTop("dung_logo_img","0","1",1000);
+	animating.indTop("skills","0","1",500);
+	animating.indTop("education","0","1",750);
 	animating.grpOpac("resume","1",750);
 	animating.grpOpac("passage","1",500);
 	//animating.grpTop("nav","0","jetpack",400);

@@ -12,14 +12,9 @@ GitHub: Yunggg // http://github.com/Yunggg
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<script src="https://code.jquery.com/jquery.min.js"></script>
-	<script src="../js/jquery-2.1.4.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:500,400italic,300,400' rel='stylesheet' type='text/css'>
 	<link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
-	<script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-	<link href="../css/bootstrap-theme.css" rel="stylesheet" type="text/css" />
-	<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
-	<script src="../js/bootstrap.min.js"></script>
+	<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<meta charset="utf-8">
 	<title>Dung Nguyen's Résumé</title>
 	<link href="../css/dungs_sass.css" rel="stylesheet" type="text/css">
@@ -68,8 +63,8 @@ GitHub: Yunggg // http://github.com/Yunggg
 		  <div class="col-sm-12 col-md-6 intro">
 			  	<div id="resume" class="dung_hero resume">
 			  		<h1>Dung Nguyen</h1>
-			  		<h3 class="light">“Design is a formal response to a strategic question.”</h3>
-			  		<h3 class="light"><a href="mailto:joce9292@gmail.com">Joce9292@gmail.com &raquo;</a><br>San Francisco, CA 94132</h3>
+			  		<h3 class="illum light">“Design is a formal response to a strategic question.”</h3>
+			  		<h3 class="illum light"><a href="mailto:joce9292@gmail.com">Joce9292@gmail.com &raquo;</a><br>San Francisco, CA 94132</h3>
 			  	</div>
 			  	<img src="http://www.simplydung.com/img/assets/hero_img_edit.jpg" alt="Dung's Hero Portrait" />
 		  </div>
@@ -85,7 +80,7 @@ GitHub: Yunggg // http://github.com/Yunggg
 
 		<section class="row" id="resume_content">
 			<div class="col-md-6 skills resume_spec">
-				<div class="resume_list right">
+				<div id="skills" class="resume_list right">
 					<h3>Skills</h3>
 					<ul>
 						<li>Problem Solver</li>
@@ -103,7 +98,7 @@ GitHub: Yunggg // http://github.com/Yunggg
 				</div>
 			</div>
 			<div class="col-md-6 education resume_spec">
-				<div class="resume_list left">
+				<div id="education" class="resume_list left">
 					<h3>Education</h3>
 					<ul>
 						<li>San Francisco State University</li>
@@ -268,6 +263,8 @@ GitHub: Yunggg // http://github.com/Yunggg
 
 <!--*************** JS Goes Here *************** -->
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../js/missionControl.js"></script>
 	<script type="text/javascript" src="../js/simplydung.js"></script>
 

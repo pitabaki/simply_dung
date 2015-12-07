@@ -26,11 +26,12 @@
 
 .navbar-default .navbar-toggle .icon-bar
 	background-color: $secondary
+
 .navbar-default .navbar-toggle:hover
 	background-color: $primary_shade
 
 .navbar-default .navbar-toggle
-	border-color: $secondary
+	border-color: $primary
 
 .light
 	font-weight: $light
@@ -164,8 +165,15 @@ button:focus
 	color: $secondary
 	font-weight: $semi-bold
 	text-align: left
-	padding-top: 30%
+	padding-top: 38%
 	line-height: 0
+
+.dung_hero h3
+	display: none
+	color: $secondary
+
+.dung_hero .illum
+	display: block
 
 .passage
 	margin: 0 auto
@@ -303,11 +311,11 @@ button:focus
 
 .contact_icons img
 	display: inline-block
-	width: 38px
+	width: 32px
 
 .contact_icons a
 	margin: 10px
-	padding: 10px
+	padding: 14px
 	background-color: $lessRichGrey
 	+borderRadius(30px)
 	transition: background-color 0.5s ease
@@ -325,6 +333,12 @@ button:focus
 	float: left
 	width: 60%
 	color: $bg_white
+
+#skills,
+#education
+	margin-top: 30%
+	opacity: 0
+	transition: all 1s ease
 
 .skills
 	background-color: $secondary_tint
@@ -574,6 +588,10 @@ a .active
 		border-color: $primary_shade_active
 
 @media screen and (max-width: 660px)
+	.dung_hero h1
+		padding-bottom: 40px
+	.dung_hero h3
+		display: block
 	.wide,
 	.vertical
 		height: 360px
@@ -610,7 +628,6 @@ a .active
 		width: 100%
 		display: inline-block
 	.navbar .nav li
-		float: none
 		width: 100%
 		text-align: center
 		border-bottom: 1px solid $primary_shade_active
