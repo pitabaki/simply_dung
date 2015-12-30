@@ -126,7 +126,9 @@ function init(){
 	animating.grpOpac("resume","1",750);
 	animating.grpOpac("passage","1",500);
 	//animating.grpTop("nav","0","jetpack",400);
-	animating.Id("resume_button").onclick = improbDrive;
+	if(animating.Id("resume_button") !== null){
+		animating.Id("resume_button").onclick = improbDrive;
+	}
 
 	/*
 	
@@ -212,7 +214,21 @@ function init(){
 			return false;
 		}
 	});
+	function record(){
+		console.log("check");
+	}
+	var anchorNav = document.getElementById("nav");
+	var tag = document.getElementById("tag");
+	var tempStor = ["0","1"];
+	$(this).scroll(function(){
+		tempStor.push(anchorNav.offsetTop - $(window).scrollTop());
+		tempStor.shift(0);
+		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600)){
+			animating.indTop("back","0","1",0);
+			console.log(tempStor);
+		}
 
+	});
 	//When the window is resized, 
 	//call the following functions
 	$(window).resize(function(){
