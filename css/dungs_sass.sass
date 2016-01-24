@@ -465,26 +465,40 @@ a .active
 #back
 	+freshStart(0)
 	margin-top: 120px
-	top: 88%
+	top: 90%
 	width: 100%
 	position: fixed
 	text-align: center
 	z-index: 222222222222222
 	transition: margin-top 0.5s ease
 
-#back h2
+#backButton
+	+freshStart(0 auto)
+	padding-top: 14px
 	position: absolute
-	text-align: center
 	width: 100%
+	text-align: center
+
+#back h2
+	position: relative
+	text-align: center
+	font-size: 24px
+	line-height: 32px
+	width: 240px
 	z-index: 222222222222224
+	+borderRadius(4px)
+	background-color: $primary_shade
+	transition: all 0.5s ease
+
+#back h2:hover
+	background-color: $primary_shade_active
 
 #back-drop
 	+freshStart(0 auto)
 	position: absolute
 	width: 100%
 	height: 200px
-	opacity: 0.9
-	background-color: $black
+	background-color: $primary
 
 @media screen and(max-width: 1220px)
 	.white_top_border

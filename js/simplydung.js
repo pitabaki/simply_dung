@@ -217,14 +217,23 @@ function init(){
 	function record(){
 		console.log("check");
 	}
-	var anchorNav = document.getElementById("nav");
-	var tag = document.getElementById("tag");
-	var tempStor = ["0","1"];
+	var anchorNav = document.getElementById("nav"),
+		tag = document.getElementById("tag"),
+		tempStor = ["0","1"],
+		backCheck = document.getElementById("back");
+		
 	$(this).scroll(function(){
 		tempStor.push(anchorNav.offsetTop - $(window).scrollTop());
 		tempStor.shift(0);
 		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600)){
-			animating.indTop("back","0","1",0);
+			if(backCheck !== "undefined"){
+				animating.indTop("back","0","1",0);
+				console.log(tempStor);
+			}else{
+				return false
+			}
+		}else{
+			animating.indTop("back","120","1",0);
 			console.log(tempStor);
 		}
 
