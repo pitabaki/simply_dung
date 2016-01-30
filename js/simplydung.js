@@ -214,30 +214,7 @@ function init(){
 			return false;
 		}
 	});
-	function record(){
-		console.log("check");
-	}
-	var anchorNav = document.getElementById("nav"),
-		tag = document.getElementById("tag"),
-		tempStor = ["0","1"],
-		backCheck = document.getElementById("back");
-		
-	$(this).scroll(function(){
-		tempStor.push(anchorNav.offsetTop - $(window).scrollTop());
-		tempStor.shift(0);
-		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600)){
-			if(backCheck !== "undefined"){
-				animating.indTop("back","0","1",0);
-				console.log(tempStor);
-			}else{
-				return false
-			}
-		}else{
-			animating.indTop("back","120","1",0);
-			console.log(tempStor);
-		}
 
-	});
 	//When the window is resized, 
 	//call the following functions
 	$(window).resize(function(){
@@ -248,6 +225,60 @@ function init(){
 		},500);
 	});
 	//instate text replacement for cocktail ID
-	cocktailReplacement(windowWidth);
+	if(document.getElementById("cocktailStatement") !== null){
+		cocktailReplacement(windowWidth);
+	}
+
+	/**************************************
+
+	Scroll Effects
+
+	**************************************/
+
+	function record(){
+		console.log("check");
+	}
+	var anchorNav = document.getElementById("nav"),
+		tag = document.getElementById("tag"),
+		tempStor = ["0","1"],
+		rowsPos = [],
+		backCheck = document.getElementById("back");
+		
+	$(this).scroll(function(){
+		//console.log($(window).scrollTop()-anchorNav.offsetTop);
+		//console.log(window.innerHeight);
+		tempStor.push(anchorNav.offsetTop - $(window).scrollTop());
+		tempStor.shift(0);
+		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600)){
+			if(backCheck !== null){
+				animating.indTop("back","0","1",0);
+				//console.log(tempStor);
+			}else{
+				return false
+			}
+		}else{
+			animating.indTop("back","120","1",0);
+			//console.log(tempStor);
+		}
+	});
+
+	/**************************************
+
+	Each Row Fade
+
+	**************************************/
+
+	var rows = document.getElementsByClassName("row");
+	if(backCheck !== null){
+		console.log(backCheck);
+		for(var x = 0; x < rows.length; x++){
+			if(rows[x].offsetTop > window.innerHeight){
+				rowsPos.push(rows[x].offsetTop);
+				rows[x].style.opacity = "0";
+			}
+			console.log(rows[x].offsetTop);
+		}
+		console.log(rowsPos);
+	}
 }
 window.onload = init;
