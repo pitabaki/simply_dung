@@ -94,7 +94,7 @@ End Cocktail Alt Text Functions
 */
 
 function init(){
-	//To reduce sloppy coding, I've implemented 'use strict'
+	//To reduce sloppy coding
 	'use strict';
 
 	var windowWidth = window.innerWidth,
@@ -249,16 +249,25 @@ function init(){
 		//console.log(window.innerHeight);
 		tempStor.push(anchorNav.offsetTop - $(window).scrollTop());
 		tempStor.shift(0);
-		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600)){
-			if(backCheck !== null){
-				animating.indTop("back","0","1",0);
-				//console.log(tempStor);
-			}else{
-				return false
-			}
-		}else{
+		if((tempStor[0] < tempStor [1]) && (tag.offsetTop - $(window).scrollTop() >= 600) && (backCheck !== null)){
+			animating.indTop("back","0","1",0);
+			//console.log(tempStor);
+		}else if(backCheck !== null){
 			animating.indTop("back","120","1",0);
 			//console.log(tempStor);
+		}else{
+			return false
+		}
+		var store = $(window).scrollTop() + 500;
+		if((store >= rowsPos[0]) && (rowsPos.length >= 1)){
+			var str = rowsPos[0];
+			//var str = "1063";
+			var temporary = document.getElementById(str);
+			temporary.style.marginTop = "0";
+			temporary.style.opacity = "1";
+			animating.indTop(str,"0","1",0);
+			rowsPos.splice(0,1);
+			console.log(rowsPos);
 		}
 	});
 
@@ -268,13 +277,23 @@ function init(){
 
 	**************************************/
 
-	var rows = document.getElementsByClassName("row");
+	/*
+	var rowObj = function(name,position,opacity){
+		this.name = name;
+		this.position = position;
+		this.opacity = opacity;
+	}*/
+	var rows = document.getElementsByClassName("row"),
+		footer = document.getElementsByClassName("footer"),
+		winPos = $(window).scrollTop() - anchorNav.offsetTop;
+	winPos += 200;
 	if(backCheck !== null){
 		console.log(backCheck);
-		for(var x = 0; x < rows.length; x++){
-			if(rows[x].offsetTop > window.innerHeight){
+		for(var x = 0; x < rows.length - 2; x++){
+			if((rows[x].offsetTop > window.innerHeight) && (rows[x].offsetTop > winPos)){
 				rowsPos.push(rows[x].offsetTop);
-				rows[x].style.opacity = "0";
+				rows[x].className += " row-fade";
+				rows[x].id += rows[x].offsetTop;
 			}
 			console.log(rows[x].offsetTop);
 		}
